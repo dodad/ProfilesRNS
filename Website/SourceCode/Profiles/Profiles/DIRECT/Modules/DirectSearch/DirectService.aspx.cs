@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -36,7 +36,6 @@ namespace Profiles.DIRECT.Modules.DirectSearch
         {
             oDataIO = new DIRECT.Utilities.DataIO();
 
-            Profiles.DIRECT.Utilities.DataIO searchDataIO;
             Profiles.Search.Utilities.DataIO profileDataIO;
 
             string DirectServiceURL = Root.Domain + "/DIRECT/Modules/DirectSearch/directservice.aspx";// Request.Url.AbsoluteUri.Replace("&", "&amp;");
